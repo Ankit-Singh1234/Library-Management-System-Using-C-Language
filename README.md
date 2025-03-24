@@ -1,65 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Library Management System</title>
-    <style>
-        @keyframes typing {
-            from { width: 0 }
-            to { width: 100% }
-        }
-        @keyframes blink {
-            50% { border-color: transparent; }
-        }
-        .typing-container {
-            font-family: monospace;
-            font-size: 24px;
-            white-space: nowrap;
-            overflow: hidden;
-            border-right: 3px solid black;
-            width: 0;
-            animation: typing 3s steps(30, end) forwards, blink 0.75s step-end infinite;
-        }
-    </style>
-</head>
-<body>
-    <h1 class="typing-container"># Library Management System</h1>
-    
-    <h2>Overview</h2>
-    <p>The <strong>Library Management System (LMS)</strong> is a software solution designed to automate and streamline library tasks...</p>
-    
-    <h2>Features</h2>
-    <h3>1. <strong>Login System</strong></h3>
-    <ul>
-        <li>Users log in with a username and password.</li>
-        <li>Credentials are validated against stored data.</li>
-    </ul>
-    
-    <h3>2. <strong>Main Menu</strong></h3>
-    <ul>
-        <li>Navigation between <strong>User Module</strong> and <strong>Book Module</strong>.</li>
-        <li>Option to exit.</li>
-    </ul>
-    
-    <h3>3. <strong>User Module</strong></h3>
-    <ul>
-        <li>Register, update, search, delete users.</li>
-        <li>Show user list.</li>
-    </ul>
-    
-    <h3>4. <strong>Book Module</strong></h3>
-    <ul>
-        <li>Add, remove, update books.</li>
-        <li>Issue and return books.</li>
-        <li>Display issued books.</li>
-    </ul>
-    
-    <h2>Future Enhancements</h2>
-    <ul>
-        <li>Multi-layer authentication.</li>
-        <li>Advanced book search.</li>
-        <li>Extended book details.</li>
-    </ul>
-</body>
-</html>
+# 📚 Library Management System
+
+## 🚀 Overview
+The **Library Management System (LMS)** is a powerful software solution designed to streamline library operations. It helps manage books, users, and administrative tasks efficiently, ensuring seamless book tracking and user management.
+
+---
+## ✨ Features
+### 🔐 **Login System**
+✔️ Secure user authentication with username & password.  
+✔️ Credentials are validated against stored records.
+
+### 📌 **Main Menu**
+✔️ Navigate between **User Module** and **Book Module**.  
+✔️ Option to **Exit** the program.
+
+### 👤 **User Module**
+🔹 **Register User** – Create new accounts with a unique username & password.  
+🔹 **Update User** – Modify user credentials securely.  
+🔹 **Search User** – Look up users by username.  
+🔹 **Delete User** – Remove user accounts permanently.  
+🔹 **Show User List** – View all registered users.
+
+### 📖 **Book Module**
+📌 **Add Book** – Insert new books or update existing ones.  
+📌 **Book List** – Display all available books.  
+📌 **Remove Book** – Delete books from the library.  
+📌 **Update Book** – Modify book details.  
+📌 **Issue Book** – Assign books to students and maintain records.  
+📌 **Display Issued Books** – View all borrowed books.  
+📌 **Return Book** – Process book returns efficiently.
+
+---
+## 🔄 Program Flow
+1️⃣ **User Login** – Authenticated users access the system.  
+2️⃣ **Main Menu** – Navigate through various modules.  
+3️⃣ **Perform Actions** – Users can register, issue books, return books, etc.  
+4️⃣ **Exit** – The program runs continuously until the user chooses to exit.
+
+---
+## 🔮 Future Enhancements
+✅ **Multi-layer Authentication** – Enhance security with OTP-based login.  
+✅ **Advanced Search** – Search books by author, genre, or ISBN.  
+✅ **Extended Book Details** – Add metadata like genre, language, and edition.
+
+---
+💡 *A smart solution to modernize library management!* 🎯
